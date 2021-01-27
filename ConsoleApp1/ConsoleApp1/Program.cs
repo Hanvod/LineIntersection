@@ -65,7 +65,7 @@ namespace ConsoleApp1
             }
         }
 
-        private static void LGBTBackight(double x, double y)
+        private static void DrawThings(double x, double y)
         {
             DrawDot(x, y, 'x', ConsoleColor.Red);
             for (double a = x - 3; a < x + 3; a += 0.05)
@@ -115,7 +115,7 @@ namespace ConsoleApp1
             DrawStraight(k1, b1);
             DrawStraight(k2, b2);
 
-            LGBTBackight(IntersectionDot.Item1, IntersectionDot.Item2);
+            DrawThings(IntersectionDot.Item1, IntersectionDot.Item2);
 
             Console.ReadKey();
         }
