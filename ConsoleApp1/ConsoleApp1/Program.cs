@@ -68,11 +68,11 @@ namespace ConsoleApp1
         private static void LGBTBackight(double x, double y)
         {
             DrawDot(x, y, 'x', ConsoleColor.Red);
-            for (double a = x - 2; a < x + 2; a += 0.05)
+            for (double a = x - 3; a < x + 3; a += 0.05)
             {
-                double b = Math.Sqrt(4 - (a - x) * (a - x)) + y;
+                double b = Math.Sqrt(9 - (a - x) * (a - x)) + y;
                 DrawDot(a, b, 'x', ConsoleColor.Green);
-                b = -(Math.Sqrt(4 - (a - x) * (a - x))) + y;
+                b = -(Math.Sqrt(9 - (a - x) * (a - x))) + y;
                 DrawDot(a, b, 'x', ConsoleColor.Green);
 
                 double centerX = (xFinish + xStart) / 2;
