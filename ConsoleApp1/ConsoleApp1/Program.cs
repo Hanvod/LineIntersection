@@ -15,7 +15,7 @@ namespace ConsoleApp1
             line1 = new Line(ReadDouble(), ReadDouble());
             line2 = new Line(ReadDouble(), ReadDouble());
         }
-
+      
         private static void Main()
         {
             GetInput(out Line line1, out Line line2);
