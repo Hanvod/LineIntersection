@@ -1,3 +1,3 @@
 # LineIntersection
 
-Solution (forked & refactored version) of programming task I created for my friend. 
+Solution (forked & refactored version) of programming task I made for my friend. 
